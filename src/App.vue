@@ -14,68 +14,68 @@ const users = ref([])
       <UserCard>
         <template #name>
           <div class="info-name">
-            <h3>Nikita</h3>
+            <h3 v-text="'Nikita'"/>
           </div>
         </template>
         <template #email>
           <div class="info-name">
-            <p>example@gmail.com</p>
+            <p v-text="'example@gmail.com'"/>
           </div>
         </template>
         <template #phone>
           <div class="info-name">
-            <p>+380 689 621 643</p>
+            <p v-text="'+380 689 621 643'"/>
           </div>
         </template>
       </UserCard>
       <UserCard>
         <template #name>
           <div class="info-name">
-            <h3>Nikita</h3>
+            <h3 v-text="'Nikita'"/>
           </div>
         </template>
         <template #email>
           <div class="info-name">
-            <p>example@gmail.com</p>
+            <p v-text="'example@gmail.com'"/>
           </div>
         </template>
         <template #phone>
           <div class="info-name">
-            <p>+380 689 621 643</p>
+            <p v-text="'+380 689 621 643'"/>
           </div>
         </template>
       </UserCard>
       <UserCard>
         <template #name>
           <div class="info-name">
-            <h3>Nikita</h3>
+            <h3 v-text="'Nikita'"/>
           </div>
         </template>
         <template #email>
           <div class="info-name">
-            <p>example@gmail.com</p>
+            <p v-text="'example@gmail.com'"/>
           </div>
         </template>
         <template #phone>
           <div class="info-name">
-            <p>+380 689 621 643</p>
+            <p v-text="'+380 689 621 643'"/>
           </div>
         </template>
       </UserCard>
       <UserCard>
         <template #name>
           <div class="info-name">
-            <h3>Nikita</h3>
+            <h3 v-text="'Nikita'"/>
           </div>
         </template>
         <template #email>
           <div class="info-name">
-            <p>example@gmail.com</p>
+            <p v-text="'example@gmail.com'"/>
           </div>
         </template>
         <template #phone>
           <div class="info-name">
-            <p>+380 689 621 643</p>
+            <p v-text="'+380 689 621 643'"/>
           </div>
         </template>
       </UserCard>
